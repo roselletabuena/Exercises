@@ -1,0 +1,11 @@
+<h1>Signatory</h1>
+
+<p><strong>First name:</strong> <%= @signatory.first_name %><p>
+<p><strong>Middle name:</strong> <%= @signatory.middle_name %><p>
+<p><strong>Last name:</Strong> <%= @signatory.last_name %><p>
+<p><strong>Position:</Strong> <%= @signatory.last_name %><p>
+<p><strong>Department:</Strong> <%= @signatory.last_name %><p>
+
+
+<%= link_to 'Edit', edit_signatory_path(@signatory) %> |
+<%= link_to 'Back', signatories_path %>
